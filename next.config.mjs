@@ -12,8 +12,8 @@ const nextConfig = {
   },
 
   output: 'export',
-  basePath: '/SWYR_P1',
-  assetPrefix: '/SWYR_P1/',
+  basePath: '/SWYR_P1' ,
+  assetPrefix:  '/SWYR_P1/ ' ,
 }
  
 
