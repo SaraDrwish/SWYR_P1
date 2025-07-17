@@ -10,7 +10,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  trailingSlash: true,
+
   output: 'export',
   basePath: '/SWYR_P1',
   assetPrefix: '/SWYR_P1/',
