@@ -4,6 +4,8 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ShoppingBag, Search, Menu, X, Heart, User } from "lucide-react"
 import { useCart } from "../context/CartContext"
+import Image from "next/image"
+
 import Cart from "./Cart"
 
 export default function Header() {
@@ -23,10 +25,20 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            {/* Logo */}
-            <motion.div className="flex-shrink-0" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
-                عطور سوير
+               {/* Logo */}
+            <motion.div
+              className="flex items-center gap-2 flex-shrink-0"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Image
+                src="/swyr11removebg11.png"
+                alt="swyr logo"
+                width={20}
+                height={20}
+              />
+              <h1 className="text-1xl font-bold bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
+                SWYR
               </h1>
             </motion.div>
 

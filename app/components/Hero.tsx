@@ -53,9 +53,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            <span className="block">عطور</span>
             <span className="block bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
-              سوير
+              سوير SWYR
             </span>
           </motion.h1>
 
