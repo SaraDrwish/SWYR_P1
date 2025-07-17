@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
@@ -17,81 +15,63 @@ body {
 @layer base {
   :root {
     --background: #ffffff;
-    --foreground: #aaaaaa;
+    --foreground: #000000;
+
     --card: #ffffff;
-    --card-foreground: #aaaaaa;
+    --card-foreground: #000000;
+
     --popover: #ffffff;
-    --popover-foreground: #aaaaaa;
-    --primary: #aaaaaa;
+    --popover-foreground: #000000;
+
+    --primary: #97a0c4;
     --primary-foreground: #ffffff;
-    --secondary: #aaaaaa;
-    --secondary-foreground: #ffffff;
-    --muted: #aaaaaa;
-    --muted-foreground: #ffffff;
-    --accent: #aaaaaa;
-    --accent-foreground: #ffffff;
-    --destructive: #aaaaaa;
+
+    --secondary: #f3f4f6;
+    --secondary-foreground: #1f2937;
+
+    --muted: #f3f4f6;
+    --muted-foreground: #6b7280;
+
+    --accent: #e0f2fe;
+    --accent-foreground: #0284c7;
+
+    --destructive: #ef4444;
     --destructive-foreground: #ffffff;
-    --border: #aaaaaa;
-    --input: #aaaaaa;
-    --ring: #aaaaaa;
-    --chart-1: #aaaaaa;
-    --chart-2: #aaaaaa;
-    --chart-3: #aaaaaa;
-    --chart-4: #aaaaaa;
-    --chart-5: #aaaaaa;
+
+    --border: #e5e7eb;
+    --input: #e5e7eb;
+    --ring: #677dc5;
+
     --radius: 0.5rem;
-    --sidebar-background: #aaaaaa;
-    --sidebar-foreground: #ffffff;
-    --sidebar-primary: #aaaaaa;
-    --sidebar-primary-foreground: #ffffff;
-    --sidebar-accent: #aaaaaa;
-    --sidebar-accent-foreground: #ffffff;
-    --sidebar-border: #aaaaaa;
-    --sidebar-ring: #aaaaaa;
   }
 
   .dark {
-    --background: #111111;
-    --foreground: #aaaaaa;
-    --card: #111111;
-    --card-foreground: #aaaaaa;
-    --popover: #111111;
-    --popover-foreground: #aaaaaa;
-    --primary: #aaaaaa;
-    --primary-foreground: #111111;
-    --secondary: #aaaaaa;
-    --secondary-foreground: #111111;
-    --muted: #aaaaaa;
-    --muted-foreground: #111111;
-    --accent: #aaaaaa;
-    --accent-foreground: #111111;
-    --destructive: #aaaaaa;
-    --destructive-foreground: #111111;
-    --border: #aaaaaa;
-    --input: #aaaaaa;
-    --ring: #aaaaaa;
-    --chart-1: #aaaaaa;
-    --chart-2: #aaaaaa;
-    --chart-3: #aaaaaa;
-    --chart-4: #aaaaaa;
-    --chart-5: #aaaaaa;
-    --sidebar-background: #111111;
-    --sidebar-foreground: #aaaaaa;
-    --sidebar-primary: #aaaaaa;
-    --sidebar-primary-foreground: #111111;
-    --sidebar-accent: #aaaaaa;
-    --sidebar-accent-foreground: #111111;
-    --sidebar-border: #aaaaaa;
-    --sidebar-ring: #aaaaaa;
-  }
-}
+    --background: #0f172a;
+    --foreground: #f8fafc;
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
+    --card: #1e293b;
+    --card-foreground: #f8fafc;
+
+    --popover: #1e293b;
+    --popover-foreground: #f8fafc;
+
+    --primary: #97a0c4;
+    --primary-foreground: #ffffff;
+
+    --secondary: #334155;
+    --secondary-foreground: #f8fafc;
+
+    --muted: #334155;
+    --muted-foreground: #94a3b8;
+
+    --accent: #4fabda;
+    --accent-foreground: #f0f9ff;
+
+    --destructive: #ef4444;
+    --destructive-foreground: #f8fafc;
+
+    --border: #334155;
+    --input: #334155;
+    --ring: #677dc5;
   }
 }

@@ -47,7 +47,7 @@ export default function Features() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">لماذا تختار عطور الملوك؟</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">لماذا تختار عطور سوير </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">نقدم لك أفضل تجربة تسوق للعطور مع خدمات متميزة</p>
         </motion.div>
 

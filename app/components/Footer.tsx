@@ -1,14 +1,15 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Facebook, Twitter, Instagram, Youtube, Phone, Mail, MapPin } from "lucide-react"
+import { Facebook, Instagram , Mail } from "lucide-react"
+/*import { Tiktok } from "lucide-react" */
 
 export default function Footer() {
   const socialLinks = [
-    { icon: <Facebook className="w-5 h-5" />, href: "#" },
-    { icon: <Twitter className="w-5 h-5" />, href: "#" },
-    { icon: <Instagram className="w-5 h-5" />, href: "#" },
-    { icon: <Youtube className="w-5 h-5" />, href: "#" },
+    { icon: <Facebook className="w-5 h-5" />, href: "https://www.facebook.com/profile.php?id=61563925810810" },
+    /* { icon: <Tiktok className="w-5 h-5" />, href: "https://www.tiktok.com/@swyrperfumes/" }, */
+    { icon: <Instagram className="w-5 h-5" />, href: "https://www.instagram.com/swyrbeauty/" },
+    
   ]
 
   const quickLinks = ["الرئيسية", "العطور", "العروض", "من نحن", "تواصل معنا"]
@@ -27,7 +28,7 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent mb-4">
-              عطور الملوك
+              عطور سوير
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
               متجرك الأول للعطور الفاخرة والأصيلة. نقدم لك أجود أنواع العطور من مختلف أنحاء العالم بأفضل الأسعار.
@@ -95,23 +96,10 @@ export default function Footer() {
           >
             <h4 className="text-lg font-semibold mb-6">تواصل معنا</h4>
             <div className="space-y-4">
-              <div className="flex items-center space-x-3 space-x-reverse">
-                <Phone className="w-5 h-5 text-amber-400" />
-                <span className="text-gray-300">+966 50 123 4567</span>
-              </div>
 
               <div className="flex items-center space-x-3 space-x-reverse">
                 <Mail className="w-5 h-5 text-amber-400" />
-                <span className="text-gray-300">info@perfume-kings.com</span>
-              </div>
-
-              <div className="flex items-start space-x-3 space-x-reverse">
-                <MapPin className="w-5 h-5 text-amber-400 mt-1" />
-                <span className="text-gray-300">
-                  الرياض، المملكة العربية السعودية
-                  <br />
-                  شارع الملك فهد، حي العليا
-                </span>
+                <span className="text-gray-300"> swyrperfumes@gmail.com </span>
               </div>
             </div>
           </motion.div>
@@ -125,7 +113,7 @@ export default function Footer() {
           transition={{ delay: 0.4, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <p className="text-gray-400 text-sm">© 2024 عطور الملوك. جميع الحقوق محفوظة.</p>
+          <p className="text-gray-400 text-sm">© 2025 عطور سوير . جميع الحقوق محفوظة.</p>
 
           <div className="flex space-x-6 space-x-reverse mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-amber-400 text-sm transition-colors">

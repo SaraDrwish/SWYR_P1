@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+  const isGithubPages = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -6,19 +8,12 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'export',
   images: {
     unoptimized: true,
   },
+  output: 'export', 
+  basePath: isGithubPages ? '/SWYR_P1' : '',
+  assetPrefix: isGithubPages ? '/SWYR_P1/' : '',
+};
 
-  output: 'export',
-  basePath: '/SWYR_P1' ,
-  assetPrefix:  '/SWYR_P1/ ' ,
-}
- 
-
-export default nextConfig
-
-
-
-
+export default nextConfig;

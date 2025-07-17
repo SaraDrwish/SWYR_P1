@@ -26,7 +26,7 @@ export default function Header() {
             {/* Logo */}
             <motion.div className="flex-shrink-0" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
-                عطور الملوك
+                عطور سوير
               </h1>
             </motion.div>
 

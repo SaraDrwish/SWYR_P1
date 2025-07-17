@@ -21,7 +21,7 @@ const products: Product[] = [
   },
   {
     id: 2,
-    name: "عود الملوك الفاخر",
+    name: "عود سوير الفاخر",
     price: 599,
     image: "/placeholder.svg?height=300&width=300",
     description: "عود طبيعي فاخر من أجود أنواع العود الكمبودي الأصيل",

@@ -55,7 +55,7 @@ export default function Hero() {
           >
             <span className="block">عطور</span>
             <span className="block bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
-              الملوك
+              سوير
             </span>
           </motion.h1>
 
