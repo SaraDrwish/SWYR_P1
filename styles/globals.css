@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #aaaaaa;
+    --card: #ffffff;
+    --card-foreground: #aaaaaa;
+    --popover: #ffffff;
+    --popover-foreground: #aaaaaa;
+    --primary: #aaaaaa;
+    --primary-foreground: #ffffff;
+    --secondary: #aaaaaa;
+    --secondary-foreground: #ffffff;
+    --muted: #aaaaaa;
+    --muted-foreground: #ffffff;
+    --accent: #aaaaaa;
+    --accent-foreground: #ffffff;
+    --destructive: #aaaaaa;
+    --destructive-foreground: #ffffff;
+    --border: #aaaaaa;
+    --input: #aaaaaa;
+    --ring: #aaaaaa;
+    --chart-1: #aaaaaa;
+    --chart-2: #aaaaaa;
+    --chart-3: #aaaaaa;
+    --chart-4: #aaaaaa;
+    --chart-5: #aaaaaa;
+    --radius: 0.5rem;
+    --sidebar-background: #aaaaaa;
+    --sidebar-foreground: #ffffff;
+    --sidebar-primary: #aaaaaa;
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #aaaaaa;
+    --sidebar-accent-foreground: #ffffff;
+    --sidebar-border: #aaaaaa;
+    --sidebar-ring: #aaaaaa;
+  }
+
+  .dark {
+    --background: #111111;
+    --foreground: #aaaaaa;
+    --card: #111111;
+    --card-foreground: #aaaaaa;
+    --popover: #111111;
+    --popover-foreground: #aaaaaa;
+    --primary: #aaaaaa;
+    --primary-foreground: #111111;
+    --secondary: #aaaaaa;
+    --secondary-foreground: #111111;
+    --muted: #aaaaaa;
+    --muted-foreground: #111111;
+    --accent: #aaaaaa;
+    --accent-foreground: #111111;
+    --destructive: #aaaaaa;
+    --destructive-foreground: #111111;
+    --border: #aaaaaa;
+    --input: #aaaaaa;
+    --ring: #aaaaaa;
+    --chart-1: #aaaaaa;
+    --chart-2: #aaaaaa;
+    --chart-3: #aaaaaa;
+    --chart-4: #aaaaaa;
+    --chart-5: #aaaaaa;
+    --sidebar-background: #111111;
+    --sidebar-foreground: #aaaaaa;
+    --sidebar-primary: #aaaaaa;
+    --sidebar-primary-foreground: #111111;
+    --sidebar-accent: #aaaaaa;
+    --sidebar-accent-foreground: #111111;
+    --sidebar-border: #aaaaaa;
+    --sidebar-ring: #aaaaaa;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
